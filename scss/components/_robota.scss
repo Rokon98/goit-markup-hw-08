@@ -1,0 +1,51 @@
+.robota {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.robota__list {
+    display: flex;
+    justify-content: center;
+}
+
+.robota__item {
+    margin-right: 30px;
+    
+    &:last-child {
+    margin-right: 0;
+}
+}
+
+
+
+.robota-prod {
+    position: relative;
+}
+
+.robota__tixt {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+}
+.robota-titel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}

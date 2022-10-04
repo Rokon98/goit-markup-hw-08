@@ -1,0 +1,92 @@
+.hero {
+    max-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.osnov-title {
+    width: 696px;
+    margin: 0 auto 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.info {
+    padding-top: 94px;
+}
+
+.info-list {
+    display: flex;
+
+}
+
+.info-item {
+    margin-right: 30px;
+    
+&::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background: #F5F4FA;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+}
+
+
+.icon-antenna::before {
+    background-image: url(../img/antenna.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../img/clock.svg);
+}
+
+.icon-diagram::before {
+    background-image: url(../img/diagram.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../img/astronaut.svg);
+}
+
+.info-item:last-child {
+    margin-right: 0;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+
+}
+
+.info-pre-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}

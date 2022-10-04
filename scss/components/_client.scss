@@ -1,0 +1,43 @@
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.client-titel {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+}
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 170px;
+    background-color: #FFFFFF;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #afb1b8;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover {
+    fill: #2196F3;
+    border-color: #2196F3;
+}
+}
+
+
+
+.client-list {
+    display: flex;
+    gap: 30px;
+}
