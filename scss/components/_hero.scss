@@ -10,7 +10,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    @media screen and (width:1200px){
+
+    @media screen and (min-width:1200px){
         padding-top: 200px;
         padding-bottom: 200px;
     }
@@ -52,12 +53,33 @@
 }
 
 .info-list {
-    display: flex;
+    @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
 
 }
 
 .info-item {
-    margin-right: 30px;
+    width: 100%;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) / 2);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 90px) / 4);
+        }
 
     
 &::before {
