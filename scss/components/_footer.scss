@@ -101,7 +101,19 @@
 
 
 .mailing-list {
+ @media screen and (max-width: 1199px) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin: 30px auto 0;
+    }
+
+ @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
     margin-left: 93px;
+    }
 }
 
 .mailing-list input {
@@ -126,8 +138,17 @@
 }
 
 .form-email {
-    display: flex;
-    align-items: center;
+    @media screen and (max-width: 1199px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: center;
+        }
 }
 
 .mailing-text {
