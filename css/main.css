@@ -61,9 +61,23 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .osnov-btn {
@@ -418,12 +432,18 @@ textarea {
 
 .team-titel {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1666666667;
+  font-size: 28px;
+  line-height: 1.1428571429;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .team-titel {
+    font-size: 36px;
+    line-height: 1.1666666667;
+  }
 }
 
 .team-list-titel {
@@ -734,8 +754,8 @@ textarea {
 
 .hero {
   max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   text-align: center;
   background-color: #2F303A;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/fon.jpg);
@@ -744,6 +764,12 @@ textarea {
   background-position: center;
   background-size: cover;
 }
+@media screen and (width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
 
 .osnov-title {
   width: 696px;
@@ -751,15 +777,36 @@ textarea {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.3636363636;
+  font-size: 26px;
+  line-height: 1.6153846154;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
+@media screen and (width: 1200px) {
+  .osnov-title {
+    font-size: 44px;
+    line-height: 1.3636363636;
+  }
+}
 
 .info {
   padding-top: 94px;
+}
+@media screen and (min-width: 480px) {
+  .info {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .info {
+    padding-top: 94px;
+  }
 }
 
 .info-list {
@@ -810,6 +857,11 @@ textarea {
   color: #212121;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+  .info-title {
+    text-align: center;
+  }
+}
 
 .info-pre-item {
   font-weight: 400;
@@ -823,15 +875,39 @@ textarea {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 480px) {
+  .client {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .client {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .client-titel {
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1666666667;
+  font-size: 28px;
+  line-height: 1.1428571429;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .client-titel {
+    font-size: 36px;
+    line-height: 1.1666666667;
+  }
 }
 
 .client-link {

@@ -1,17 +1,36 @@
 .client {
     padding-top: 94px;
     padding-bottom: 94px;
+    @media screen and (min-width:480px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width:768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    @media screen and (min-width:1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    }
+
 
 }
 
 .client-titel {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: calc(42/36);
+    font-size: 28px;
+    line-height: calc(32/28);
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+    
+    @media screen and (min-width:1200px) {
+        font-size: 36px;
+        line-height: calc(42/36);
+    }
 
 }
 
