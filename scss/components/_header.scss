@@ -76,9 +76,6 @@
 
 .logo-list {
     display: flex;
-    @media screen and (max-width: 767px) {
-            display: none;
-        }
 }
 
 .logo__item:not(:last-child) {
@@ -100,19 +97,6 @@
     &:hover {
     color: #2196F3;
 }
-@media screen and (min-width: 768px) {
-    align-items: center;
-    display: flex;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-@media screen and (min-width: 1200px) {
-    align-items: center;
-    display: flex;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
 }
 
 .pozi {
@@ -122,20 +106,8 @@
 
 
 .contacts-list {
+    display: flex;
     margin-left: auto;
-
-    @media screen and (max-width: 767px) {
-        display: none;
-        }
-    
-        @media screen and (min-width: 768px) {
-        margin-left: auto;
-        }
-    
-        @media screen and (min-width: 1200px) {
-        display: flex;
-        margin-left: auto;
-        }
 }
 
 .contacts-item {
@@ -147,6 +119,9 @@
 }
 
 .contacts-mail__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -163,24 +138,14 @@
     color: #2196F3;
     fill: #2196F3;
 }
-@media screen and (min-width: 768px) {
-    align-items: center;
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-@media screen and (min-width: 1200px) {
-    align-items: center;
-    display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 }
 
 
 
 .contacts-tel__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -195,19 +160,6 @@
 &:hover {
     color: #2196F3;
     fill: #2196F3;
-}
-@media screen and (min-width: 768px) {
-    align-items: center;
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-@media screen and (min-width: 1200px) {
-    align-items: center;
-    display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 }
 

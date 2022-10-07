@@ -1,7 +1,7 @@
 .hero {
     max-width: 1600px;
-    padding-top: 118px;
-    padding-bottom: 118px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
     background-color: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -10,11 +10,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    @media screen and (min-width:1200px){
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
 
 
 }
@@ -25,62 +20,24 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    font-size: 26px;
-    line-height: calc(42/26);
+    font-size: 44px;
+    line-height: calc(60/44);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-
-    @media screen and (width:1200px){
-        font-size: 44px;
-        line-height: calc(60/44);
-    }
 }
 
 .info {
     padding-top: 94px;
-    @media screen and (min-width: 480px) {
-            padding-top: 60px;
-        }
-    
-        @media screen and (min-width: 768px) {
-            padding-top: 60px;
-        }
-    
-        @media screen and (min-width: 1200px) {
-            padding-top: 94px;
-        }
 }
 
 .info-list {
-    @media screen and (min-width: 768px) {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-    
-        @media screen and (min-width: 1200px) {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
+    display: flex;
 
 }
 
 .info-item {
-    width: 100%;
-        &:not(:last-child) {
-            margin-bottom: 30px;
-        }
-    
-        @media screen and (min-width: 768px) {
-            width: calc((100% - 30px) / 2);
-        }
-    
-        @media screen and (min-width: 1200px) {
-            width: calc((100% - 90px) / 4);
-        }
-
+    margin-right: 30px;
     
 &::before {
     display: block;
@@ -123,9 +80,6 @@
     text-transform: uppercase;
     color: #212121;
     margin-bottom: 10px;
-    @media screen and (max-width: 767px) {
-            text-align: center;
-        }
 
 }
 
