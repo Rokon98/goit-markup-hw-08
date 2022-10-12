@@ -14,7 +14,7 @@
     background-position: center;
     background-size: cover;
 
-    @media screen and(max-width:1200px){
+    @media screen and(min-width:1200px){
         padding-top: 200px;
         padding-bottom: 200px;
     }
@@ -45,6 +45,7 @@
 .info {
     padding-top: 60px;
     padding-bottom: 60px;
+    
     @media screen and(min-width:1200px){
         padding-top: 94px;
         padding-bottom: 94px;
@@ -70,7 +71,7 @@
         }
     
         @media screen and (min-width: 1200px) {
-        width: calc((100% - 30px) / 4);
+        width: calc((100% - 150px) / 4);
         }
 
     
@@ -115,6 +116,9 @@
     text-transform: uppercase;
     color: #212121;
     margin-bottom: 10px;
+    @media screen and (max-width: 767px) {
+            text-align: center;
+        }
 
 }
 
